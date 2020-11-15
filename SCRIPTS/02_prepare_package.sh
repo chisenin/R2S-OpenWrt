@@ -178,7 +178,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-autorebo
 #Argon LuCI Theme
 #git clone -b master --single-branch https://github.com/jerrykuku/luci-theme-argon package/new/luci-theme-argon
 #git clone -b master --single-branch https://github.com/jerrykuku/luci-app-argon-config package/new/luci-app-argon-config
-#edge主题
+#Edge LuCI Theme
 #git clone -b master --single-branch https://github.com/garypang13/luci-theme-edge package/new/luci-theme-edge
 #AdGuard
 #cp -rf ../openwrt-lienol/package/diy/luci-app-adguardhome ./package/new/luci-app-adguardhome
@@ -219,9 +219,9 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan package/le
 svn co https://github.com/fw876/helloworld/trunk/tcping package/lean/tcping
 svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/lean/naiveproxy
 #Merge Pull Requests from Mattraks
-pushd package/lean
-wget -qO - https://patch-diff.githubusercontent.com/raw/fw876/helloworld/pull/218.patch | patch -p1
-popd
+#pushd package/lean
+#wget -qO - https://patch-diff.githubusercontent.com/raw/fw876/helloworld/pull/218.patch | patch -p1
+#popd
 #Passwall
 #svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/new/luci-app-passwall
 #cp -f ../PATCH/new/script/move_2_services.sh ./package/new/luci-app-passwall/move_2_services.sh
