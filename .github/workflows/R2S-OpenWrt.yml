@@ -9,8 +9,8 @@ on:
       - 'SEED/config.seed'
       - 'SCRIPTS/switch'
       - 'SCRIPTS/02_prepare_package.sh'
- # watch:
- #   types: [started]
+  watch:
+    types: [started]
 
 jobs:
   build:
